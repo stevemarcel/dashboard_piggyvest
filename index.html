@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>register</title>
+</head>
+<body>
+  <div id="card-background" class="items-center flex flex-col">
+
+    <div id="logo">
+      <a href="./html/login.html"><img src="./img/PiggyVest_Logo_white.png" alt="PiggyVest_Logo"></a>
+    </div>
+
+    <div id="box-1"  class="teardrop-border" >
+      <div id="intro" class="items-center text-center flex flex-col">
+        <h1 class="text-pry">Create a Secure Account</h1>
+        <p class="head-par text-center">Welcome to the future of Savings  & Investments</p>
+      </div>
+
+      <form id="form" class="flex-col flex" action="./php/process.php">
+        <div class="box" >
+          <label for="first-name">Full Name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Full Name">
+        </div>
+      
+        <div class="box" >
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Email Address">
+        </div>
+       
+        <div class="box" >
+          <label for="last-name">Phone Number</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Phone Number">
+        </div>
+
+        <div class="box" >
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        
+        <div class="box" >
+          <label for="referral">Referrer Phone or Promo Code (Optional)</label>
+          <input type="text" id="referral" name="referral" placeholder="Referrer Phone Or Code">
+        </div>
+        
+        <div class="box" >
+          <label for="find-us">How Did You Hear About Us? (Optional)</label>
+          <select name="find-us" id="find-us" onfocus="this.size=4" onblur="this.size=1" onchange="this.size=1; this.blur();">
+            <option value="Select">Click To Select</option>
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+            <option value="friend-family-coworker">Friend/Family/Coworker Referral</option>
+            <option value="google-search">Google search</option>
+            <option value="google-playstore">Google playstore</option>
+            <option value="online-blog">Online Blog</option>
+            <option value="local-newspaper">Local Newspaper</option>
+            <option value="event">At an event</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div id="create" class="flex">
+          <button class="btn teardrop-border" type="submit">CREATE ACCOUNT</button>
+        </div>
+        
+      </form>
+    </div>
+
+    <div id="footer">
+      <a href="./html/login.html" class="items-center">Already have an account? Log in</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

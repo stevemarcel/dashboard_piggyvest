@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>register</title>
+</head>
+<body>
+  <div id="card-background" class="items-center flex flex-col">
+
+    <div id="logo">
+      <a href="#"><img src="../img/PiggyVest_Logo_white.png" alt="PiggyVest_Logo"></a>
+    </div>
+
+    <div id="box-1"  class="teardrop-border" >
+      <div id="intro" class="items-center text-center flex flex-col">
+        <h1 class="text-pry">Login to your account</h1>
+        <p class="head-par font-body text-center">Securely login to your PiggyVest</p>
+      </div>
+
+      <form id="form" class="flex-col flex" action="../php/process.php">
+        <div class="box" >
+          <label for="email-or-phoneNumber">Email or Phone Number</label>
+          <input type="text" id="email-or-phoneNumber" name="email-or-phoneNumber">
+        </div>
+       
+        <div class="box" >
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+        
+        <div id="create" class="flex">
+          <button class="btn teardrop-border" type="submit">LOG IN</button>
+        </div>
+        
+      </form>
+    </div>
+
+    <div id="footer" class="text-center">
+      <a href="../index.html" class="items-center">Don't have an account? Register</a> <br> <br>
+      <a href="forgot_password.html" class="items-center">Forgot Password?</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
