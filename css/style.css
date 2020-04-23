@@ -1,5 +1,5 @@
 /* Reset */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,11 +7,12 @@
 
 /* Main styling */
 html {
-  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   line-height: 1.5;
 }
+
 #card-background {
-  background: url('../img/bgn_img1.png'), url('../img/bgn_img2.png'), url('../img/bgn_img3.png'), url('../img/bgn_img4.png') ;
+  background: url('../img/bgn_img1.png'), url('../img/bgn_img2.png'), url('../img/bgn_img3.png'), url('../img/bgn_img4.png');
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 15%, 15%, 15%, 15%;
   background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
@@ -21,41 +22,50 @@ html {
   height: 100vh;
   overflow-y: auto;
 }
-img{
+
+img {
   margin-bottom: 3rem;
   max-width: 10rem;
 }
-#box-1{
+
+#box-1 {
   background-color: #fff;
   padding: 2.5rem;
   max-width: 28rem;
 }
+
 h1 {
   color: #083e9e;
   font-size: 1.25rem;
   font-weight: 700;
 }
+
 .head-par {
   color: #4a5568;
   font-size: .875rem;
-  font-family: Karla,sans-serif;
+  font-family: Karla, sans-serif;
 }
+
 #form {
   margin-top: 2rem;
 }
+
 .box {
   position: relative;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
 }
+
 label {
   font-size: .75rem;
   color: #4a5568;
   line-height: 2;
   font-weight: 700;
 }
-input, select {
+
+input,
+select {
   color: #1a202c;
   padding: .75rem .5rem .75rem .75rem;
   border: #edf2f7;
@@ -63,13 +73,16 @@ input, select {
   background-color: #edf2f7;
   font-size: 100%;
 }
+
 input::placeholder {
   color: #a0aec0
 }
-#create{
+
+#create {
   align-items: flex-end;
 }
-.btn{
+
+.btn {
   background-color: rgb(8, 62, 158);
   border: #edf2f7;
   padding: 1.25rem 2.5rem 1rem 2.5rem;
@@ -79,10 +92,12 @@ input::placeholder {
   text-align: center;
   font-weight: 700;
 }
+
 #footer {
   padding: .25rem .75rem;
-  margin-top: 2rem;  
+  margin-top: 2rem;
 }
+
 a {
   color: #fff;
   font-size: .75rem;
@@ -97,15 +112,19 @@ a {
 .text-center {
   text-align: center;
 }
+
 .items-center {
   align-items: center;
 }
+
 .flex {
   display: flex;
 }
+
 .flex-col {
   flex-direction: column;
 }
+
 .teardrop-border {
   border-top-left-radius: .75rem;
   border-top-right-radius: .75rem;
